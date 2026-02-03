@@ -1,7 +1,21 @@
-## This codebase is valid for Rev2 only
+| :warning: WARNING                        |
+|:-----------------------------------------|
+| This codebase is valid for Rev2 only     |
 
+# Thermique revision 2
 
-## raspberrypi_video [Edited]
+Project Thermique is aimed to be an all-in-one solution to detect COVID-19 infected individuals entering an office or institution.
+It makes use of state-of-the-art thermal imaging and a fullstack application to automatically extract a person's temperatature from the
+region of interest, before logging them and alerting admins in case of a possible COVID infection. Being a contactless kiosk placed at an
+entryway, it also serves as an attendance tracker.
+
+The overall system workflow is as follows:
+
+<img width="720" alt="rev2diagram" src="https://github.com/user-attachments/assets/7a667951-e28e-44b1-85d9-fa1b5239eaee" />
+
+> Note that this system is outdated, and the later revision reduces the number of components and changes a few things
+
+## Usage
 
 0. This is for raspberrypi_video only. raspberrypi_qt was not used in final production.
 1. Enable I2C and SPI
